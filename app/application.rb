@@ -37,7 +37,7 @@ class Application
       @@cart << add_item
       return "added #{add_item}"
     else
-      return "Couldn't add #{add_item} because we are out."
+      return "We don't have that item"
     end #ends if
   end #ends method
 
